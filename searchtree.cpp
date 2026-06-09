@@ -54,4 +54,21 @@ class binarytree
             parent ->rightchild = newnode;
         }
     }
+
+    void search(string element, node *&parent, node *&currentNode)
+    {
+        currentNode = root;
+        parent = NULL;
+
+        while ((currentNode != NULL) &&
+               (currentNode->info != element))
+        {
+            parent = currentNode;
+
+            if (element < currentNode->info)
+                currentNode = currentNode->leftchild;
+            else
+                currentNode = currentNode->rightchild;
+        }
+    }
 }
