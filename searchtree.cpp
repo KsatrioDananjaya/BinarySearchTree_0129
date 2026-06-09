@@ -4,5 +4,8 @@ using namespace std;
 
 class node
 {
-    public
+    public:
+    string info;
+    node *leftchild;
+    node *rightchild;
 }
