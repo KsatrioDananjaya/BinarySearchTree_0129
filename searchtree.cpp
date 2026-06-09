@@ -26,4 +26,9 @@ class binarytree
     {
         root = NULL;
     }
+
+    void insert(string element)
+    {
+        
+    }
 }
