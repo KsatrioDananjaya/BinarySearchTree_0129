@@ -121,4 +121,9 @@ class binarytree
             cout << ptr->info << " ";
         }
     }
+};
+
+int main()
+{
+    
 }
