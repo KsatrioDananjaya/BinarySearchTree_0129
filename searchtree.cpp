@@ -15,4 +15,10 @@ class node
         leftchild =l;
         rightchild = r;
     }
+};
+
+class binarytree
+{
+    public:
+    node *root;
 }
